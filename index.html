@@ -2,12 +2,150 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lesson 2</title>
+    <meta name="description" content="My learning process">
+    <meta name="keywords" content="Front-end, html, learning">
+    <meta name="author" content="Nastassia Tsitsiak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first project</title>
 </head>
 <body>
 <h1>Моя первая страница</h1>
 <p>
     <a href="./about/index.html" target="_blank">Об авторе</a>
 </p>
+<hr>
+<img src="img/what-is-front-end.png" alt="describes the concept of frontend">
+<ol>
+<li>Знакомство с Web
+<ul>
+    <li>Краткая история Web и как устроен интернет</li>
+    <li>Как устроен браузер и как он получает страницы по сети</li>
+    <li>Что такое Git</li>
+    <li>Создание первого репозитория</li>
+    <li>О файле .gitignore</li>
+</ul>
+</li>
+<li>HTML-вёрстка – первые шаги
+<ul>
+    <li>Настройка рабочей среды</li>
+    <li>Краткая история HTML</li>
+    <li>Типы тегов и атрибуты</li>
+    <li>Теги для работы с текстом</li>
+    <li>Создание собственной страницы</li>
+    <li>Основы ветвления в Git</li>
+    <li>Создание pull request на GitHub</li>
+</ul>
+</li>
+<li>Погружение в HTML-разметку
+<ul>
+    <li>Мета-теги</li>
+    <li>Мнемоники</li>
+    <li>Теги для работы со списками</li>
+    <li>Теги для работы с таблицами</li>
+    <li>Теги для работы с формами</li>
+    <li>div и span</li>
+</ul></li>
+</ol>
+<table border="one" width="50%">
+    <thead>
+    <tr>
+        <th>Tag</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>< table ></td>
+        <td>Defines a table</td>
+    </tr>
+    <tr>
+        <td>< tr ></td>
+        <td>Defines a row in a table</td>
+    </tr>
+    <tr>
+        <td>< th ></td>
+        <td rowspan="2">Defines a "header cell"/"cell" in a table</td>
+
+    </tr>
+    <tr>
+        <td>< td > </td>
+    </tr>
+    <tr>
+        <td colspan="2">Rarely used</td>
+    </tr>
+    <tr>
+        <td>< caption ></td>
+        <td>Defines a table caption</td>
+    </tr>
+    <tr>
+        <td>< thead ></td>
+        <td>Groups the header content in a table</td>
+    </tr>
+    <tr>
+        <td>< tbody ></td>
+        <td>Groups the body content in a table</td>
+    </tr>
+    <tr>
+        <td>< tfoot ></td>
+        <td>Groups the footer content in a table</td>
+    </tr>
+    </tbody>
+</table>
+<p>
+<form action="/">
+    <fieldset>
+        <legend>My first form</legend>
+    <div>
+        <label for="name">Name</label><br>
+    <input id="name" type="text" name="name" placeholder="Name" required>
+    </div>
+    <div>
+        <label for="email">Email</label><br>
+        <input id="email" type="email" name="email" required>
+    </div>
+    <div>
+        <label for="password">Password</label><br>
+        <input id="password" type="password" name="password" required>
+    </div>
+    <div>
+        <label for="level">Your programming level</label><br>
+        <input id="level" type="range" name="level" min="0" max="10" value="5">
+    </div>
+    <p>Whad does HTML stand for?</p>
+        <p>
+        <input id="html-1" type="checkbox" name="html" value="off1">
+        <label for="html-1">Hyperlinks and Text Markup Language</label><br>
+        <input id="html-2" type="checkbox" name="html" value="off2">
+        <label for="html-2">Home Tool Markup Language</label><br>
+        <input id="html-3" type="checkbox" name="html" value="on">
+        <label for="html-3">Hyper Text Markup Language</label><br>
+    </p>
+    <p>Whad does HTTP stand for?</p>
+        <p>
+        <input id="http-1" type="radio" name="http" value="off1">
+        <label for="http-1">Hyper Text Translate Protocol</label><br>
+        <input id="http-2" type="radio" name="http" value="off2">
+        <label for="http-2">Hyper Text Transmission Protocol</label><br>
+        <input id="http-3" type="radio" name="http" value="on">
+        <label for="http-3">Hyper Text Transfer Protocol</label><br>
+    </p>
+    <div>
+        <label for="comment">Comment</label><br>
+        <textarea name="comment" id="comment" placeholder="Comment" maxlength="500"></textarea>
+    </div>
+    <div>
+        <label for="select_html">Whad does HTML stand for?</label><br>
+        <select name="select_html" id="select_html">
+            <option disabled selected>Your answer</option>
+            <option value="1">Hyperlinks and Text Markup Language</option>
+            <option value="2">Home Tool Markup Language</option>
+            <option value="3">Hyper Text Markup Language</option>
+        </select>
+    </div>
+    <p>
+    <button>Send</button>
+    </p>
+      </fieldset>
+</form>
 </body>
 </html>

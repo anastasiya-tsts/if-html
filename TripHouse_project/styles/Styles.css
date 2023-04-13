@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #383838;
+}
+.container {
+    width: 1440px;
+    height: 569px;
+    margin-top: 900px;
+}
+.title-offer {
+    text-align: center;
+    width: 306px;
+    height: 47px;
+    margin: 120px 567px 0;
+}
+.stroke-images {
+    text-align: center;
+    margin: 0 670px;
+}
+.row {
+    margin-top: 80px;
+}
+.column {
+    display: inline-block;
+    text-align: center;
+}
+.support-column {
+    width: 296px;
+    height: 176px;
+    left: 104px;
+    top: 1171px;
+    margin-bottom: 122px;
+    margin-left: 104px;
+}
+.communication-column {
+    width: 296px;
+    height: 178px;
+    left: 416px;
+    top: 1171px;
+    margin-bottom: 120px;
+}
+.booking-column {
+    width: 296px;
+    height: 184px;
+    left: 728px;
+    top: 1171px;
+    margin-bottom: 114px;
+}
+.reviews-column {
+    width: 296px;
+    height: 183px;
+    left: 1040px;
+    top: 1171px;
+    margin-right: 104px;
+    margin-bottom: 115px;
+}
+.support-image {
+    padding: 4.17px 110.5px 52.17px;
+}
+.communication-image {
+    padding: 8.33px 107.33px 56.33px 105.33px;
+}
+.booking-image {
+    padding: 16.67px 98px 64.67px;
+}
+.reviews-image {
+    padding: 4.17px 102.17px 60.5px;
+}
+.title-support {
+    padding-right: 78px;
+    padding-left: 77px;
+}
+.title-communication {
+    padding-bottom: 2px;
+}
+.title-booking {
+    padding: 0 64px 8px;
+}
+.title-reviews {
+    padding: 0 35px 7px 36px;
+}
